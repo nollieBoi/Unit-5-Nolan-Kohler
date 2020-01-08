@@ -1,7 +1,7 @@
 public class num {
     private int value;
 
-    public Num(int value){
+    public num(int value){
         this.value = value;
     }
 
