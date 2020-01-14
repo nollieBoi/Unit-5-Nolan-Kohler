@@ -1,7 +1,5 @@
-public interface lockable {
-    int key = 0;
-    Boolean isLocked = false;
-
+public interface lockable{
+    
     void setKey(int key);
 
     void lock(int key);
