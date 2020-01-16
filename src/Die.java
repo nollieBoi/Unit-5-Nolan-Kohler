@@ -22,7 +22,7 @@ public class Die implements lockable{
     }
 
     public void unlock(int keyInput){
-        System.out.println("Unlocking.. beeePPPPPPE");
+        System.out.println("Unlocking with key: " + key + " .. beeePPPPPPE");
         if(keyInput == key){
             locked = false;
             System.out.println("SUCCESSFULLY UNLOCKED... YYAYAYAYYYAYY");
